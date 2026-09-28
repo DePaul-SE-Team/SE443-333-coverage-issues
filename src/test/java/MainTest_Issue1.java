@@ -12,5 +12,5 @@ class MainTest_Issue1 {
     }
 
     //TODO
-    //Add another test to expose the bug
+    //Add another test to expose the bug. See task1.md for guided questions.
 }

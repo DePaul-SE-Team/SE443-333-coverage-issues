@@ -2,9 +2,16 @@ package org.example;
 
 /**
  * Q1: What happens to code coverage when you delete the code? why?
- * Step 1: run the test -> passes
- * Step 2: is there a bug? even if test passes? If there is a bug, write another test case to expose it
- * Step 4: fix the bug (delete)
+ * Learning objective: coverage tells you which lines RAN, not whether the
+ * output was correct. A test can reach 100% coverage and still hide a bug.
+ *
+ * Step 1: Run MainTest_Issue1 with coverage -> it passes at 100% coverage.
+ * Step 2: Is there a bug despite the passing test and full coverage?
+ *         If so, write another test case in MainTest_Issue1 that exposes it.
+ * Step 3: Fix the bug (delete the offending line) and re-run with coverage.
+ * Step 4: Compare the coverage percentage before and after the fix.
+ *
+ * See task1.md for guided questions.
  */
 public class Main_Issue1 {
     public double add(double x, double y){
